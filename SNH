@@ -8,7 +8,7 @@ getgenv().Config = {
     Items = {
         {
             Item = "Mini Chest",
-            Price = 30000,
+            Price = 35000,
             Type = "Misc"
         },
     },
