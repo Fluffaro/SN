@@ -7,14 +7,14 @@ getgenv().Config = {
     -- If using Terminal hop, as it will check for items in order.
     Items = {
         {
-            Item = "Mini Chest",
-            Price = 35000,
+            Item = "Void Key",
+            Price = 43000,
             Type = "Misc"
         },
     },
     Extra = {
     -- BE CAREFUL WITH THIS! WE HAVE NO WAY TO CHECK IF RAP IS MANIPULATED!
-      Huges = {Enabled=true, Percentage= "1%", priceCap = 64000000}, -- Percentage = RAP Value -10%
+      Huges = {Enabled=true, Percentage= "1%", priceCap = 55000000}, -- Percentage = RAP Value -10%
       Titanics = {Enabled=true, Percentage="-5%", priceCap = 500000000},
       Exclusive = {Enabled=true, Percentage="-1%", priceCap = 2000000},
       Exclusive_Eggs = {Enabled=true, Percentage="-10%", priceCap = 30000000},
