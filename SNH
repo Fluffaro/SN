@@ -7,14 +7,27 @@ getgenv().Config = {
     -- If using Terminal hop, as it will check for items in order.
     Items = {
         {
-            Item = "Void Key",
-            Price = 43000,
-            Type = "Misc"
+            Item = "Huge Bison",
+            Price = 58000000,
+            pt = nil, -- Minimum Pet Tier, nil: Normal, 1: Golden, 2: Rainbow
+            Type = "Pet"
+        },
+        {
+            Item = "Huge Giraffe",
+            Price = 58000000,
+            pt = nil, -- Minimum Pet Tier, nil: Normal, 1: Golden, 2: Rainbow
+            Type = "Pet"
+        },
+        {
+            Item = "Huge Elephant",
+            Price = 58000000,
+            pt = nil, -- Minimum Pet Tier, nil: Normal, 1: Golden, 2: Rainbow
+            Type = "Pet"
         },
     },
     Extra = {
     -- BE CAREFUL WITH THIS! WE HAVE NO WAY TO CHECK IF RAP IS MANIPULATED!
-      Huges = {Enabled=true, Percentage= "1%", priceCap = 55000000}, -- Percentage = RAP Value -10%
+      Huges = {Enabled=true, Percentage= "1%", priceCap = 58000000}, -- Percentage = RAP Value -10%
       Titanics = {Enabled=true, Percentage="-5%", priceCap = 500000000},
       Exclusive = {Enabled=true, Percentage="-1%", priceCap = 2000000},
       Exclusive_Eggs = {Enabled=true, Percentage="-10%", priceCap = 30000000},
